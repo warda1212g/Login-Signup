@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="logincard">
+    <h2>Login</h2>
+    <p>Email</p>
+    <div class="emailcont">
+        <label for="email"><i class="fa-solid fa-user" style="color: #989da4;"></i></label>
+     <input type="text" id="email" placeholder="email or username"> 
+
+    </div>
+    <p>Password</p>
+<div class="passcont emailcont">
+    <label for="password"><i class="fa-regular fa-lock passicon" style="color: #989da4;"></i></label>
+    <input type="password" id="password" placeholder="password"> <br>
+
+</div>
+<a class="forpass" href="#">Forget password?</a>
+<div class="loginbtn">
+    <button onclick="signIn()">Login</button>
+</div>
+
+<p class="signup-para">Or Sign Up Using</p>
+<div class="social">
+    <i class="fa-brands fa-facebook" style="color: #0165e1;"></i>
+    <i class="fa-brands fa-twitter" style="color: #00aecc;"></i>
+    <i class="fa-brands fa-google-plus" style="color: #e21818;"></i>
+</div>
+
+<p class="signup-para create">Or Create an Account</p>
+<div class="create-div">
+<button id="myButton" onclick="signUpPage()"class="create-btn">Create new Account</button>
+</div> 
+</div>
+
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/b4fc311639.js" crossorigin="anonymous"></script>
+</body>
+</html>
